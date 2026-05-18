@@ -60,8 +60,10 @@ for (let j = 0; j < optionButtons.length; j++) {
 
     if (isCorrect(guessedValue)) {
       event.target.classList.add("correct");
+      alert("hurray true true u sabi JAVASCRIPT!");
     } else {
       event.target.classList.add("incorrect");
+        alert("wetin dey worry this one na this simple question oya try again!");
     }
 
     explanation.textContent = fact.explanation;
